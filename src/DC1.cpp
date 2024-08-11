@@ -192,6 +192,7 @@ void DC1::mqttDiscovery(bool isEnable)
                          "\"pl_on\":\"on\","
                          "\"avty_t\":\"%s\","
                          "\"pl_avail\":\"online\","
+                         "\"unique_id\":\"%s_%d\","
                          "\"pl_not_avail\":\"offline\"}"),
                     UID, (ch + 1),
                     cmndTopic,
